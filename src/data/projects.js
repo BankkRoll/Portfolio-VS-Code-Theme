@@ -138,7 +138,7 @@ const projects = [
   {
     name: 'Fr00py Land Game', 
     description: 'Fr00py Land game for a fun expeirnce of two boys NFT', 
-    src: 'froopy.mp4', 
+    src: 'froopy.gif', 
     site: 'https://bankkrolleth.itch.io/fr00pyland', 
     technologies: ['HTML', 'CSS', 'JavaScript'],
   }
