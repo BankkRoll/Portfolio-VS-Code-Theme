@@ -135,7 +135,13 @@ const projects = [
     site: 'https://frootiez-shootiez.itch.io/budlist', 
     technologies: ['HTML', 'CSS', 'JavaScript'],
   },
-  
+  {
+    name: 'Fr00py Land Game', 
+    description: 'Fr00py Land game for a fun expeirnce of two boys NFT', 
+    src: 'froopy.png', 
+    site: 'https://bankkrolleth.itch.io/fr00pyland', 
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+  }
   
 ];
 
