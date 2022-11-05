@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Recommendation from './pages/Recommendation';
+import Games from './pages/Games';
 
 import AppProvider from './context/AppProvider';
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/projects" element={ <Projects /> } />
         <Route path="/contact" element={ <Contact /> } />
         <Route path="/recommendation" element={ <Recommendation /> } />
+        <Route path="/games" element={ <Games /> } />
       </Routes>
     </AppProvider>
   );
