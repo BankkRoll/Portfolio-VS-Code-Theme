@@ -3,6 +3,7 @@ import '../styles/SideBar.css';
 import react_icon from '../images/react_icon.svg'
 import js_icon from '../images/js_icon.svg'
 import html_icon from '../images/html_icon.svg'
+import markdown_icon from '../images/markdown_icon.svg'
 import css_icon from '../images/css_icon.svg'
 import json_icon from '../images/json_icon.svg'
 import { IoIosArrowDown,IoIosArrowForward } from 'react-icons/io';
@@ -47,6 +48,10 @@ function SideBar() {
           <Link to="/contact" className="explorer-file">
             <img src={ css_icon } alt="icon" className="icon-side-bar"/>
             <p>Contact.css</p>
+          </Link>
+          <Link to="/games" className="explorer-file">
+            <img src={ markdown_icon } alt="icon" className="icon-side-bar"/>
+            <p>Games.txt</p>
           </Link>
         </>
       )}
