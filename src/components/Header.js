@@ -36,6 +36,11 @@ function Header() {
           icon={ css_icon }
           name='Contact.css'
           path="/contact"
+        />
+        <MenuBar 
+          icon={ markdown_icon }
+          name='Games.txt'
+          path="/games"
         /> 
       </nav>
     </header>
