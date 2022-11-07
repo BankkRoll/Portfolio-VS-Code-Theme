@@ -6,6 +6,8 @@ import js_icon from '../images/js_icon.svg'
 import html_icon from '../images/html_icon.svg'
 import css_icon from '../images/css_icon.svg'
 import json_icon from '../images/json_icon.svg'
+import markdown_icon from '../images/markdown_icon.svg'
+
 
 
 function Header() {
