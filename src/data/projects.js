@@ -112,7 +112,6 @@ const projects = [
     name: 'Greedy Ghost NFT', 
     description: 'A GGhost NFT on SOLANA', 
     src: 'gg.png', 
-    site: 'https://www.ascendedmasters.xyz/', 
     technologies: ['React','Next', 'WEB3', 'TypeScript', 'Rust'],
   },
   {
@@ -125,21 +124,20 @@ const projects = [
     name: 'FROOTIEZ', 
     description: 'FROOTIEZ NFT', 
     src: 'frootiez.png', 
-    site: 'https://www.ascendedmasters.xyz/', 
     technologies: ['React', 'HTML', 'CSS', 'JavaScript', 'Solidity'],
   },
   {
     name: 'FROOTIEZ SHOOTIEZ Game', 
     description: 'FROOTIEZ SHOOTIEZ NFT Game', 
     src: 'frootiezshootiez.png', 
-    site: 'https://frootiez-shootiez.itch.io/play', 
+    site: 'https://bankkrolleth.itch.io/frootiez-shootiez', 
     technologies: ['HTML', 'CSS', 'JavaScript'],
   },
   {
     name: 'Budlist Game', 
     description: 'Budlist game for wl or discord invite code', 
     src: 'budlist.png', 
-    site: 'https://frootiez-shootiez.itch.io/budlist', 
+    site: 'https://bankkrolleth.itch.io/budlist', 
     technologies: ['HTML', 'CSS', 'JavaScript'],
   },
   {
