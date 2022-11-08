@@ -109,6 +109,13 @@ const projects = [
     technologies: ['React', 'HTML', 'CSS', 'JavaScript', 'Solidity'],
   },
   {
+    name: 'Greedy Ghost NFT', 
+    description: 'A GGhost NFT on SOLANA', 
+    src: 'gg.png', 
+    site: 'https://www.ascendedmasters.xyz/', 
+    technologies: ['React','Next', 'WEB3', 'TypeScript', 'Rust'],
+  },
+  {
     name: 'Downers NFT', 
     description: 'Downers NFT', 
     src: 'downers.png', 
