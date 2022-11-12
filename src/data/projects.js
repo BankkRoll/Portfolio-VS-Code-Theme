@@ -15,6 +15,13 @@ const projects = [
     technologies: ['Typescript'],
   },
   {
+    name: 'Frens Radio Network', 
+    description: 'A Space For All Frens In WEB3', 
+    src: 'frensradio.gif', 
+    site: 'https://frensradio.io', 
+    technologies: ['React', 'Next.js', 'HTML', 'CSS'],
+  },
+  {
     name: 'Solana Programs (Smart Contracts)', 
     description: 'Solana Minting DApp', 
     src: 'solana.gif', 
