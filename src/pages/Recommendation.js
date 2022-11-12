@@ -22,7 +22,8 @@ function Projects() {
             {recommendation.map(({name, message, info}, index) => (
               <div className={`recommendation-card ${index === 1 && 'border'}`} key={name}>
                 <p>{message}</p>
-                <a><h2>{name}</h2><h4>{info}</h4></a>
+                <h4>{info}</h4>
+                <a><h2>{name}</h2></a>
               </div>
             ))}
           </div>
