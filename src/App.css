@@ -32,14 +32,9 @@
 }
 
 h1 {
-  font-size: 40px;
   color: var(--white-100);
 }
 
-h4 {
-  font-size: 20px;
-  color: var(--white-100);
-}
 
 .App {
   text-align: center;
