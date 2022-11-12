@@ -18,6 +18,16 @@
   gap: 2rem;
 }
 
+.h1 {
+  font-size: 40px;
+  color: var(--white-100);
+}
+
+.h4 {
+  font-size: 20px;
+  color: var(--white-100);
+}
+
 .recommendation-card {
   width: 400px;
   color: var(--white-100);
