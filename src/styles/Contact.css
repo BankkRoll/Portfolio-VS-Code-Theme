@@ -19,6 +19,10 @@
   font-size: 1.2rem;
 }
 
+.a {
+  cursor: url(https://sweezy-cursors.com/wp-content/uploads/cursor/lava/lava-pointer-32x32.png), pointer!important;
+}
+
 a {
   color: var(--blue-200);
   list-style: none;
