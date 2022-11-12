@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Fira Code', monospace;
+  cursor: url(https://sweezy-cursors.com/wp-content/uploads/cursor/lava/lava-cursor-32x32.png), default!important;
 }
 
 .flex-container {
