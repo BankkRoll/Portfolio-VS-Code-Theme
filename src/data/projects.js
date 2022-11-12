@@ -22,6 +22,13 @@ const projects = [
     technologies: ['React', 'Next.js', 'HTML', 'CSS'],
   },
   {
+    name: 'Fr00py Land Game', 
+    description: 'Fr00py Land game for a fun expeirnce of two boys NFT', 
+    src: 'froopy.gif', 
+    site: 'https://bankkrolleth.itch.io/fr00pyland', 
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+  },
+  {
     name: 'Solana Programs (Smart Contracts)', 
     description: 'Solana Minting DApp', 
     src: 'solana.gif', 
@@ -144,13 +151,6 @@ const projects = [
     description: 'Budlist game for wl or discord invite code', 
     src: 'budlist.png', 
     site: 'https://bankkrolleth.itch.io/budlist', 
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-  },
-  {
-    name: 'Fr00py Land Game', 
-    description: 'Fr00py Land game for a fun expeirnce of two boys NFT', 
-    src: 'froopy.gif', 
-    site: 'https://bankkrolleth.itch.io/fr00pyland', 
     technologies: ['HTML', 'CSS', 'JavaScript'],
   }
   
