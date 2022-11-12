@@ -19,10 +19,10 @@ function Projects() {
         <main className="main-wrapper recommendation">
           <h1 className="title-recommendation">Services I Provide</h1>
           <div className="recommendation-container">
-            {recommendation.map(({name, message, social}, index) => (
+            {recommendation.map(({name, message, info}, index) => (
               <div className={`recommendation-card ${index === 1 && 'border'}`} key={name}>
                 <p>{message}</p>
-                <a href={social} target="_blank" rel="noreferrer"><h2>{name}</h2></a>
+                <a><h2>{name}</h2><h4>{info}</h4></a>
               </div>
             ))}
           </div>
