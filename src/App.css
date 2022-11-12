@@ -32,6 +32,12 @@
 }
 
 h1 {
+  font-size: 2em
+  color: var(--white-100);
+}
+
+h4 {
+  font-size: 1em
   color: var(--white-100);
 }
 
