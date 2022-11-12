@@ -10,6 +10,11 @@
   border-bottom: 1.5px solid var(--gray-300);
 }
 
+.a {
+  cursor: url(https://sweezy-cursors.com/wp-content/uploads/cursor/lava/lava-pointer-32x32.png), pointer!important;
+}
+
+
 .nav-container {
   display: flex;
 }
