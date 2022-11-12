@@ -29,8 +29,8 @@ const projects = [
     technologies: ['Typescript','React', 'Next.js','Node.js', 'CSS', 'HTML', 'Rust'],
   },
   {
-    name: 'Solana Programs (Smart Contracts)', 
-    description: 'Solana Minting DApp With TokenGating Content', 
+    name: 'Token Gating Content/Pages', 
+    description: 'DApp With TokenGating Content', 
     src: 'tokengate.gif', 
     site: 'https://solanawalletgatedapp.vercel.app/', 
     technologies: ['Typescript','React', 'Next.js','Node.js', 'CSS', 'HTML', 'Rust'],
