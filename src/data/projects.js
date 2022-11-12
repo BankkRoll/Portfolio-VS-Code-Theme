@@ -25,7 +25,6 @@ const projects = [
     name: 'Solana Programs (Smart Contracts)', 
     description: 'Solana Minting DApp', 
     src: 'solana.gif', 
-    site: 'https://bankkroll-solana.vercel.app/', 
     technologies: ['Typescript','React', 'Next.js','Node.js', 'CSS', 'HTML', 'Rust'],
   },
   {
@@ -37,7 +36,7 @@ const projects = [
   },
   {
     name: 'Solana Wallet Gating Content', 
-    description: 'Solana Custom Made "wallet Gate" to gate content', 
+    description: 'Solana "Wallet Gate" to gate content to specific wallets', 
     src: 'walletgate.png', 
     site: 'https://solanawalletgatedapp.vercel.app/',
     repository: 'https://github.com/BankkRoll/Solana-Wallet-Gate-A-Website',
