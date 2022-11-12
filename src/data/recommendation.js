@@ -5,21 +5,24 @@ const recommendation = [
   },
   {
     name: 'Twitter', 
-    message: 'Bots and Oauth sites  (*WILL NOT BREAK TOS*)',
+    message: 'Bots and Simple Oauth sites',
   },
   {
     name: 'WEB3', 
-    message: 'Mint DApps, Marketplaces, Applications',
-    
+    message: 'Mint DApps, Marketplaces, Applications, Gated Content/Site',
   },
   {
-    name: 'Web Developer', 
+    name: 'Web Development', 
     message: 'Multi/Single-Page Websites, Ecommerce Marketplaces, Applicaitons , Software, ECT..', 
   },
   {
     name: 'Software Tools', 
-    message: 'NFT Stat Tools, ATC, Bots, Scrapers/Parsers (* WILL NOT BREAK ANY TOS *)', 
+    message: 'NFT Stat Tools, ATC, Bots, Scrapers/Parsers', 
   },
+  {
+    name: 'Full Stack Development', 
+    message: 'Front End, Back End, Databases, Browser/Server, & Software', 
+  }
 ];
 
 export default recommendation;
