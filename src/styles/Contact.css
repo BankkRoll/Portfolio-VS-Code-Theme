@@ -3,12 +3,11 @@
   gap: 6rem;
   align-items: center;
 }
+
 .class-name {
   color: var(--blue-200);
   font-size: 1.2rem;
 }
-
-
 
 .element {
   color: var(--white-100);
@@ -19,10 +18,6 @@
   color: var(--white-100);
   margin-left: 1.2rem;
   font-size: 1.2rem;
-}
-
-.a {
-  cursor: url(https://sweezy-cursors.com/wp-content/uploads/cursor/lava/lava-pointer-32x32.png), pointer!important;
 }
 
 a {
