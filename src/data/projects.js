@@ -29,6 +29,13 @@ const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript'],
   },
   {
+    name: 'NFT Displayer', 
+    description: 'Search any ETH wallet and get all the NFTs displayed.', 
+    src: 'display.gif', 
+    site: 'https://nftdisplay.vercel.app/', 
+    technologies: ['React', 'Next', 'TypeScript', 'Node', 'Tailwind'],
+  },
+  {
     name: 'Solana Programs (Smart Contracts)', 
     description: 'Solana Minting DApp', 
     src: 'solana.gif', 
