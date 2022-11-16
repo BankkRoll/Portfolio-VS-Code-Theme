@@ -19,7 +19,7 @@ const projects = [
     description: 'A Space For All Frens In WEB3', 
     src: 'frensradio.gif', 
     site: 'https://frensradio.io', 
-    technologies: ['React', 'Next.js', 'HTML', 'CSS'],
+    technologies: ['React', 'Next.js', 'web3.js', 'HTML', 'CSS'],
   },
   {
     name: 'Fr00py Land Game', 
@@ -33,7 +33,7 @@ const projects = [
     description: 'Search any ETH wallet and get all the NFTs displayed.', 
     src: 'display.gif', 
     site: 'https://nftdisplay.vercel.app/', 
-    technologies: ['React', 'Next', 'TypeScript', 'Node', 'Tailwind'],
+    technologies: ['React', 'Next.js','Node.js', 'TypeScript', 'Tailwind'],
   },
   {
     name: 'Solana Programs (Smart Contracts)', 
