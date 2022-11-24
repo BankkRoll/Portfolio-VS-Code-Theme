@@ -80,13 +80,7 @@ const projects = [
     repository: 'https://github.com/BankkRoll/alien-frens-nft-viewer',
     technologies: ['HTML', 'CSS', 'JavaScript'],
   },
-  {
-    name: 'Doink Me', 
-    description: 'PFP Overlay Doinks', 
-    src: 'doink.png', 
-    site: 'https://doinkme.xyz/', 
-    technologies: ['HTML', 'CSS', 'JavaScript', 'jQuery'],
-  },
+  
   {
     name: 'PFP Generator', 
     description: 'PFP Overlay Changer', 
