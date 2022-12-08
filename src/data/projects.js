@@ -67,7 +67,7 @@ const projects = [
     name: 'Alien Frens Jerseys', 
     description: 'Alien Frens Jersey Generator', 
     src: 'afj.gif', 
-    site: 'https://frensjerseys.xyz/',
+    site: 'https://frensjerseys.vercel.app/',
     repository: 'https://github.com/BankkRoll/Alien-Frens-Jersey-Generator-frensjerseys.xyz',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     
