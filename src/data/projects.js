@@ -139,7 +139,6 @@ const projects = [
     name: 'Greedy Ghost NFT', 
     description: 'A GGhost NFT on SOLANA', 
     src: 'gg.png',
-    site: 'https://greedy-ghost.vercel.app/',
     technologies: ['React', 'Next.js', 'web3.js', 'TypeScript', 'Rust'],
   },
   {
