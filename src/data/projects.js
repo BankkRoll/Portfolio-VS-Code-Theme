@@ -6,6 +6,12 @@ const projects = [
     site: 'https://github.com/BankkRoll',
     repository: 'https://github.com/BankkRoll',
     technologies: ['React', 'Next.js','Node.js', 'CSS', 'HTML'],
+  },{
+    name: 'Cusotm Website', 
+    description: 'Need a custom website?', 
+    src: 'https://ik.imagekit.io/kq2c28pex/ezgif.com-gif-maker__1_.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1670605541147', 
+    site: 'https://serverinspector.xyz', 
+    technologies: [],
   },
   {
     name: 'Server Inspector', 
