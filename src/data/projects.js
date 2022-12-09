@@ -9,7 +9,7 @@ const projects = [
   },{
     name: 'Cusotm Website', 
     description: 'Need a custom website?', 
-    src: 'https://ik.imagekit.io/kq2c28pex/ezgif.com-gif-maker__4_.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1670606040508', 
+    src: '6684.gif', 
     site: 'https://serverinspector.xyz', 
     technologies: [],
   },
