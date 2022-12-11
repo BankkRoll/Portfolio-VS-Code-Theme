@@ -12,7 +12,7 @@ const projects = [
     description: 'Need a custom website?', 
     src: '6684.gif', 
     site: 'https://twitter.com/bankkroll_eth', 
-    technologies: ['React', 'Next.js','Node.js', 'CSS', 'HTML', 'TypeScript', 'Tailwind', 'jQuery'. 'web3.js'],
+    technologies: ['React', 'Next.js','Node.js', 'CSS', 'HTML', 'TypeScript', 'Tailwind', 'jQuery', 'web3.js'],
   },
   {
     name: 'Server Inspector', 
@@ -34,6 +34,13 @@ const projects = [
     src: 'cheddar.gif', 
     site: 'https://www.cheddarandfrens.com/', 
     technologies: ['React'],
+  },
+  {
+    name: 'Frenship Book Company', 
+    description: 'Creating picture books to inspire and guide children in Web 3.0 and the rest of the world. Author ✍️ @Rave4_H - Illustrator 🖌️@jpegjonno', 
+    src: 'frenshipbook.gif', 
+    site: 'https://www.frenshipbookcompany.com/', 
+    technologies: ['React', 'core-js', 'jQuery'],
   },
   {
     name: 'Fr00py Land Game', 
