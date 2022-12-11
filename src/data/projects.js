@@ -6,12 +6,13 @@ const projects = [
     site: 'https://github.com/BankkRoll',
     repository: 'https://github.com/BankkRoll',
     technologies: ['React', 'Next.js','Node.js', 'CSS', 'HTML'],
-  },{
+  },
+  {
     name: 'Custom Website', 
     description: 'Need a custom website?', 
     src: '6684.gif', 
-    site: 'https://serverinspector.xyz', 
-    technologies: [],
+    site: 'https://twitter.com/bankkroll_eth', 
+    technologies: ['React', 'Next.js','Node.js', 'CSS', 'HTML', 'TypeScript', 'Tailwind', 'jQuery'. 'web3.js'],
   },
   {
     name: 'Server Inspector', 
