@@ -29,7 +29,7 @@ const projects = [
   },
   {
     name: 'Cheddar & Frens', 
-    description: 'Cheddar&Frens are a Web3 sub community of Alien Frens, with a common interest... building upon our cheesy ideas! Established by like minded frens that share a common trait of cheese heads derived from the NFT Community, Alien Frens.', 
+    description: 'Cheddar & Frens are a Web3 sub community of Alien Frens, with a common interest... building upon our cheesy ideas! Established by like minded frens that share a common trait of cheese heads derived from the NFT Community, Alien Frens.', 
     src: 'cheddar.gif', 
     site: 'https://www.cheddarandfrens.com/', 
     technologies: ['React'],
