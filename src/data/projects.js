@@ -7,7 +7,7 @@ const projects = [
     repository: 'https://github.com/BankkRoll',
     technologies: ['React', 'Next.js','Node.js', 'CSS', 'HTML'],
   },{
-    name: 'Cusotm Website', 
+    name: 'Custom Website', 
     description: 'Need a custom website?', 
     src: '6684.gif', 
     site: 'https://serverinspector.xyz', 
