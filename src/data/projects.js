@@ -28,6 +28,13 @@ const projects = [
     technologies: ['React', 'Next.js', 'web3.js', 'HTML', 'CSS'],
   },
   {
+    name: 'Cheddar & Frens', 
+    description: 'Cheddar&Frens are a Web3 sub community of Alien Frens, with a common interest... building upon our cheesy ideas! Established by like minded frens that share a common trait of cheese heads derived from the NFT Community, Alien Frens.', 
+    src: 'cheddar.gif', 
+    site: 'https://www.cheddarandfrens.com/', 
+    technologies: ['React'],
+  },
+  {
     name: 'Fr00py Land Game', 
     description: 'Fr00py Land game for a fun expeirnce of two boys NFT', 
     src: 'froopy.gif', 
