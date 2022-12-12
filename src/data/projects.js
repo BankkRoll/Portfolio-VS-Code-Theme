@@ -50,6 +50,13 @@ const projects = [
     technologies: ['React', 'core-js', 'jQuery'],
   },
   {
+    name: 'NFT Site or Somthing', 
+    description: 'Search any ETH wallet and get all the NFTs displayed.', 
+    src: 'siteor.gif', 
+    site: 'https://nft-site-or-somthing.vercel.app/', 
+    technologies: ['React', 'Next.js', 'Node.js', 'TypeScript','JavaScript', 'Tailwind'],
+  },
+  {
     name: 'NFT Displayer', 
     description: 'Search any ETH wallet and get all the NFTs displayed.', 
     src: 'display.gif', 
