@@ -30,14 +30,14 @@ const projects = [
   },
   {
     name: 'Frens Radio Network', 
-    description: 'A Space For All Frens In WEB3! We provide a global platform for all Web3 to pool skills, resources, opportunities for growth, professional expertise, entrepreneurial knowledge and have a great time!', 
+    description: 'A Space For All Frens In WEB3! We provide a global platform for all Web3 to pool skills, resources, opportunities for growth and have a great time!', 
     src: 'frensradio.gif', 
     site: 'https://frensradio.io', 
     technologies: ['React', 'Next.js', 'web3.js', 'HTML', 'CSS'],
   },
   {
     name: 'Cheddar & Frens', 
-    description: 'Cheddar & Frens are a Web3 sub community of Alien Frens, with a common interest... building upon our cheesy ideas! Established by like minded frens that share a common trait of cheese heads derived from the NFT Community, Alien Frens.', 
+    description: 'Cheddar & Frens are a Web3 sub community of Alien Frens... Building upon our cheesy ideas! Established by like minded frens that share a common trait of cheese heads derived from the NFT Community, Alien Frens.', 
     src: 'cheddar.gif', 
     site: 'https://www.cheddarandfrens.com/', 
     technologies: ['React'],
