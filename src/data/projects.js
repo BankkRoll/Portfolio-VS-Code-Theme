@@ -29,6 +29,12 @@ const projects = [
     technologies: ['React', 'Next.js','Node.js', 'CSS', 'HTML', 'TypeScript', 'Tailwind', 'jQuery', 'web3.js'],
   },
   {
+    name: 'Shrine After Died', 
+    description: 'COMING SOON!', 
+    src: 'soon.gif', 
+    technologies: ['React', 'Next.js', 'web3.js', 'HTML', 'CSS'],
+  },
+  {
     name: 'Frens Radio Network', 
     description: 'A Space For All Frens In WEB3! We provide a global platform for all Web3 to pool skills, resources, opportunities for growth and have a great time!', 
     src: 'frensradio.gif', 
