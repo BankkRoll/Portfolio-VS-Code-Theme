@@ -57,7 +57,7 @@ const projects = [
   },
   {
     name: 'NFT Site or Somthing', 
-    description: 'Search any ETH wallet and get all the NFTs displayed.', 
+    description: 'Simple NFT drisplay or mint site made with react!', 
     src: 'siteor.gif', 
     site: 'https://nft-site-or-somthing.vercel.app/', 
     technologies: ['React', 'Next.js', 'Node.js', 'TypeScript','JavaScript', 'Tailwind'],
@@ -80,7 +80,7 @@ const projects = [
   },
   {
     name: 'DOINK ME', 
-    description: 'PFP Background Changer', 
+    description: 'DOINK ME, PFP overlay generator', 
     src: 'DOINKME.png', 
     site: 'https://doinkme.xyz/', 
     technologies: ['HTML', 'CSS', 'JavaScript', 'jQuery'],
@@ -101,7 +101,7 @@ const projects = [
   },
   {
     name: 'WEBTREE', 
-    description: 'PFP Overlay Changer', 
+    description: 'My own custom verison of linktree', 
     src: 'webtree.png', 
     technologies: ['HTML', 'CSS', 'JavaScript'],
   },
