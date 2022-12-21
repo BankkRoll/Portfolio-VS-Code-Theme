@@ -29,9 +29,15 @@ const projects = [
     technologies: ['React', 'Next.js','Node.js', 'CSS', 'HTML', 'TypeScript', 'Tailwind', 'jQuery', 'web3.js'],
   },
   {
+    name: 'ShrineList Wallet Checker (WL Checker)', 
+    description: 'Custom Wallet Checker for WL spots.', 
+    src: 'wlsad.gif', 
+    technologies: ['React', 'Next.js', 'CSS'],
+  },
+  {
     name: 'Shrine After Died', 
-    description: 'COMING SOON!', 
-    src: 'soon.gif', 
+    description: 'Shrine After Died is a genesis AI collection by GLR.', 
+    src: 'sad.gif', 
     technologies: ['React', 'Next.js', 'web3.js', 'HTML', 'CSS'],
   },
   {
