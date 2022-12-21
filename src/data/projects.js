@@ -142,7 +142,7 @@ const projects = [
     name: 'Petal Headz', 
     description: 'Petal Headz NFT', 
     src: 'Petal.png', 
-    site: 'https://www.petalheadz.com/', 
+    site: 'https://opensea.io/collection/petal-headz', 
     technologies: ['React', 'HTML', 'CSS', 'JavaScript', 'web3.js', 'Solidity'],
   },
   {
