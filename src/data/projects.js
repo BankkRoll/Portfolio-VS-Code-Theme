@@ -69,7 +69,7 @@ const projects = [
   },
   {
     name: 'NFT Site or Somthing', 
-    description: 'Simple NFT drisplay or mint site made with react!', 
+    description: 'Simple NFT display or mint site made with react!', 
     src: 'siteor.gif', 
     site: 'https://nft-site-or-somthing.vercel.app/', 
     technologies: ['React', 'Next.js', 'Node.js', 'TypeScript','JavaScript', 'Tailwind'],
