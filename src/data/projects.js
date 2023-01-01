@@ -29,18 +29,6 @@ const projects = [
     technologies: ['React', 'Next.js','Node.js', 'CSS', 'HTML', 'TypeScript', 'Tailwind', 'jQuery', 'web3.js'],
   },
   {
-    name: 'ShrineList Wallet Checker (WL Checker)', 
-    description: 'Custom Wallet Checker for WL spots.', 
-    src: 'wlsad.gif', 
-    technologies: ['React', 'Next.js', 'CSS'],
-  },
-  {
-    name: 'Shrine After Died', 
-    description: 'Shrine After Died is a genesis AI collection by GLR.', 
-    src: 'sad.gif', 
-    technologies: ['React', 'Next.js', 'web3.js', 'HTML', 'CSS'],
-  },
-  {
     name: 'Frens Radio Network', 
     description: 'A Space For All Frens In WEB3! We provide a global platform for all Web3 to pool skills, resources, opportunities for growth and have a great time!', 
     src: 'frensradio.gif', 
@@ -144,6 +132,18 @@ const projects = [
     src: 'Petal.png', 
     site: 'https://opensea.io/collection/petal-headz', 
     technologies: ['React', 'HTML', 'CSS', 'JavaScript', 'web3.js', 'Solidity'],
+  },
+  {
+    name: 'ShrineList Wallet Checker (WL Checker)', 
+    description: 'Custom Wallet Checker for WL spots.', 
+    src: 'wlsad.gif', 
+    technologies: ['React', 'Next.js', 'CSS'],
+  },
+  {
+    name: 'Shrine After Died', 
+    description: 'Shrine After Died is a genesis AI collection by GLR.', 
+    src: 'sad.gif', 
+    technologies: ['React', 'Next.js', 'web3.js', 'HTML', 'CSS'],
   },
   {
     name: 'The Chariot', 
