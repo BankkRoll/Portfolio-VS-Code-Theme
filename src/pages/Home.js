@@ -22,7 +22,7 @@ function Home() {
               <p><span className="span">{'<'}</span>Hello 👋 I am</p>
               <h1>BankkRoll <span className="span">{'/>'}</span> </h1>
               <Typical 
-                steps={['Full Stack Developer', 1000, 'Security Specialist', 1000, 'Problem Solver', 1000]}
+                steps={['Developer', 1000, 'Security Specialist', 1000, 'Problem Solver', 1000]}
                 loop={Infinity}
                 wrapper="h2"
               />              
