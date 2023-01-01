@@ -160,12 +160,6 @@ const projects = [
     technologies: ['React', 'HTML', 'CSS', 'JavaScript', 'web3.js', 'Solidity'],
   },
   {
-    name: 'Greedy Ghost NFT', 
-    description: 'A GGhost NFT on SOLANA', 
-    src: 'gg.png',
-    technologies: ['React', 'Next.js', 'web3.js', 'TypeScript', 'Rust'],
-  },
-  {
     name: 'Downers NFT', 
     description: 'Downers NFT', 
     src: 'downers.png', 
