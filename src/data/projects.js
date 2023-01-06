@@ -32,7 +32,7 @@ const projects = [
   {
     name: 'Custom Portfolio', 
     description: 'Need a custom Portfolio?', 
-    src: '6688.png', 
+    src: '6688.', 
     site: 'https://frentech.vercel.app/',
     repository: 'https://github.com/BankkRoll/Development-Portfolio',
     technologies: ['React', 'Next.js','Node.js', 'Chakra'],
