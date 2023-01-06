@@ -10,7 +10,8 @@ const projects = [
   {
     name: 'Server Inspector', 
     description: 'Discord Security Bot | Join Gate - Raid/Link Defence - 99.9% Uptime - SECURITY |', 
-    src: 'server.gif', 
+    src: 'server.gif',
+    repository: 'https://github.com/BankkRoll/Server-Inspector',
     site: 'https://serverinspector.xyz', 
     technologies: ['Typescript'],
   },
@@ -32,8 +33,9 @@ const projects = [
     name: 'Custom Portfolio', 
     description: 'Need a custom Portfolio?', 
     src: '6688.png', 
-    site: 'https://twitter.com/bankkroll_eth', 
-    technologies: ['React', 'Next.js','Node.js', 'CSS', 'HTML', 'TypeScript', 'Tailwind', 'jQuery', 'web3.js'],
+    site: 'https://frentech.vercel.app/',
+    repository: 'https://github.com/BankkRoll/Development-Portfolio',
+    technologies: ['React', 'Next.js','Node.js', 'Chakra'],
   },
   {
     name: 'Frens Radio Network', 
@@ -46,13 +48,13 @@ const projects = [
     name: 'Frens Connect', 
     description: 'COMING SOON!', 
     src: 'soon.gif', 
-    technologies: ['React', 'Next.js', 'web3.js', 'CSS'],
+    technologies: ['React', 'Next.js', 'Node.js', 'web3.js'],
   },
     {
     name: 'Frens Radio NFT Mint', 
     description: 'COMING SOON!', 
     src: 'soon.gif', 
-    technologies: ['React', 'Next.js', 'web3.js', 'CSS'],
+    technologies: ['React', 'Next.js', 'Node.js', 'web3.js', 'Tailwind CSS'],
   },
   {
     name: 'Cheddar & Frens', 
