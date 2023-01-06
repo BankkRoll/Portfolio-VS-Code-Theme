@@ -29,6 +29,13 @@ const projects = [
     technologies: ['React', 'Next.js','Node.js', 'CSS', 'HTML', 'TypeScript', 'Tailwind', 'jQuery', 'web3.js'],
   },
   {
+    name: 'Custom Portfolio', 
+    description: 'Need a custom Portfolio?', 
+    src: '6688.png', 
+    site: 'https://twitter.com/bankkroll_eth', 
+    technologies: ['React', 'Next.js','Node.js', 'CSS', 'HTML', 'TypeScript', 'Tailwind', 'jQuery', 'web3.js'],
+  },
+  {
     name: 'Frens Radio Network', 
     description: 'A Space For All Frens In WEB3! We provide a global platform for all Web3 to pool skills, resources, opportunities for growth and have a great time!', 
     src: 'frensradio.gif', 
@@ -37,6 +44,12 @@ const projects = [
   },
   {
     name: 'Frens Connect', 
+    description: 'COMING SOON!', 
+    src: 'soon.gif', 
+    technologies: ['React', 'Next.js', 'web3.js', 'CSS'],
+  },
+    {
+    name: 'Frens Radio NFT Mint', 
     description: 'COMING SOON!', 
     src: 'soon.gif', 
     technologies: ['React', 'Next.js', 'web3.js', 'CSS'],
