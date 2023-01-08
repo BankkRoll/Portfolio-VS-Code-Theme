@@ -22,6 +22,13 @@ const projects = [
     site: 'https://twitter.com/alienevobotfren', 
     technologies: ['Typescript', 'Shell' ],
   },
+    {
+    name: 'Goerli Drippy Avatars', 
+    description: 'Goerli Drippy Avatars is a interoperable drippy avatar NFT. This means you can add owned wearables and update the metadata to show your new drip!', 
+    src: 'drippy.png', 
+    site: 'https://drippy-avatars.vercel.app/', 
+    technologies: ['React', 'Next.js','Node.js', 'Tailwind', 'ChainLink', 'web3.js'],
+  },
   {
     name: 'Custom Website', 
     description: 'Need a custom website?', 
