@@ -47,13 +47,15 @@ const projects = [
   {
     name: 'Frens Connect', 
     description: 'COMING SOON!', 
-    src: 'soon.gif', 
+    src: 'soon.gif',
+    site: 'https://app.frensradio.io', 
     technologies: ['React', 'Next.js', 'Node.js', 'web3.js'],
   },
     {
     name: 'Frens Radio NFT Mint', 
     description: 'COMING SOON!', 
-    src: 'soon.gif', 
+    src: 'frnmint.png',
+    site: 'https://mint.frensradio.io', 
     technologies: ['React', 'Next.js', 'Node.js', 'web3.js', 'Tailwind CSS'],
   },
   {
