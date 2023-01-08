@@ -53,7 +53,7 @@ const projects = [
   },
     {
     name: 'Frens Radio NFT Mint', 
-    description: 'COMING SOON!', 
+    description: 'Frens Radio NFT minting site!', 
     src: 'frnmint.png',
     site: 'https://mint.frensradio.io', 
     technologies: ['React', 'Next.js', 'Node.js', 'web3.js', 'Tailwind CSS'],
