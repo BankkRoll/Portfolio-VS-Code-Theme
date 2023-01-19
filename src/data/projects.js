@@ -15,6 +15,13 @@ const projects = [
     site: 'https://serverinspector.xyz', 
     technologies: ['Typescript'],
   },
+    {
+    name: 'a KID called NFA', 
+    description: 'a KID called NFA is a NFT/Crypto analytics tool for AKCB', 
+    src: 'akcn.gif',
+    site: '', 
+    technologies: ['React', 'Next.js','Node.js'],
+  },
   {
     name: 'Alien Evo Sales Bot', 
     description: 'Alien Frens Evolution Twitter Sales Bot', 
