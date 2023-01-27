@@ -50,6 +50,13 @@ const projects = [
     repository: 'https://github.com/BankkRoll/Development-Portfolio',
     technologies: ['React', 'Next.js','Node.js', 'Chakra'],
   },
+   {
+    name: 'Hippe Life Krew', 
+    description: 'Hippie life krew website!', 
+    src: 'hippie.gif',
+    site: 'https://www.hippielifekrew.io/', 
+    technologies: ['React', 'Next.js', 'Node.js', 'web3.js', 'Tailwind CSS'],
+  },
   {
     name: 'Frens Radio Network', 
     description: 'A Space For All Frens In WEB3! We provide a global platform for all Web3 to pool skills, resources, opportunities for growth and have a great time!', 
@@ -64,11 +71,18 @@ const projects = [
     site: 'https://app.frensradio.io', 
     technologies: ['React', 'Next.js', 'Node.js', 'web3.js'],
   },
-    {
+   {
     name: 'Frens Radio NFT Mint', 
     description: 'Frens Radio NFT minting site!', 
     src: 'frnmint.png',
     site: 'https://mint.frensradio.io', 
+    technologies: ['React', 'Next.js', 'Node.js', 'web3.js', 'Tailwind CSS'],
+  },
+   {
+    name: 'The Lucky Llamas ', 
+    description: '🦙🦙🦙 Collection of 4,444 Lucky Llamas 🦙🦙🦙 ', 
+    src: 'llamas.gif',
+    site: 'https://www.theluckyllamas.com/', 
     technologies: ['React', 'Next.js', 'Node.js', 'web3.js', 'Tailwind CSS'],
   },
   {
