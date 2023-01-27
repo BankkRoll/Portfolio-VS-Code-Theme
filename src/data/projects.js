@@ -58,14 +58,14 @@ const projects = [
     technologies: ['React', 'Next.js', 'Node.js', 'web3.js', 'Tailwind CSS'],
   },
   {
-    name: 'Frens Radio Network', 
+    name: 'Frens Radio Network Website', 
     description: 'A Space For All Frens In WEB3! We provide a global platform for all Web3 to pool skills, resources, opportunities for growth and have a great time!', 
     src: 'frensradio.gif', 
     site: 'https://frensradio.io', 
     technologies: ['React', 'Next.js', 'web3.js', 'CSS'],
   },
   {
-    name: 'Frens Connect', 
+    name: 'Frens Connect Web-App', 
     description: 'All participants in Frens Connect can Easily find professionals and builders in the space & supercharge their networking opportunities', 
     src: 'soon.gif',
     site: 'https://app.frensradio.io', 
@@ -79,7 +79,7 @@ const projects = [
     technologies: ['React', 'Next.js', 'Node.js', 'web3.js', 'Tailwind CSS'],
   },
    {
-    name: 'The Lucky Llamas ', 
+    name: 'The Lucky Llamas Website', 
     description: '🦙🦙🦙 Collection of 4,444 Lucky Llamas 🦙🦙🦙 ', 
     src: 'llamas.gif',
     site: 'https://www.theluckyllamas.com/', 
