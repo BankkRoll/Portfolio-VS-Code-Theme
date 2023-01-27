@@ -66,7 +66,7 @@ const projects = [
   },
   {
     name: 'Frens Connect', 
-    description: 'COMING SOON!', 
+    description: 'All participants in Frens Connect can Easily find professionals and builders in the space & supercharge their networking opportunities', 
     src: 'soon.gif',
     site: 'https://app.frensradio.io', 
     technologies: ['React', 'Next.js', 'Node.js', 'web3.js'],
