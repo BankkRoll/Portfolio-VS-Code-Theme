@@ -50,6 +50,13 @@ const projects = [
     technologies: ['React', 'Next.js','Node.js', 'CSS', 'HTML', 'TypeScript', 'Tailwind', 'jQuery', 'web3.js'],
   },
   {
+    name: 'Manifold Punks', 
+    description: 'Need a custom website?', 
+    src: 'punks.gif',
+    site: 'https://manifoldpunks.netlify.app/', 
+    technologies: ['React', 'Next.js','Node.js', 'CSS', 'HTML', 'TypeScript', 'Tailwind', 'jQuery', 'web3.js'],
+  },
+  {
     name: 'Custom Portfolio', 
     description: 'Need a custom Portfolio?', 
     src: '6688.gif', 
