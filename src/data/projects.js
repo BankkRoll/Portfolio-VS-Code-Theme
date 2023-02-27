@@ -25,6 +25,7 @@ const projects = [
     name: 'Bankkshop', 
     description: 'Custom DB reward marketplaces for nft collections, or other use cases of reward marketplace.', 
     src: 'mrkt.png',
+    site: 'https://bankkshop.vercel.app/',
     technologies: ['React', 'Next.js','Node.js'],
   },
   {
