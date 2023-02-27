@@ -15,10 +15,16 @@ const projects = [
     site: 'https://serverinspector.xyz', 
     technologies: ['Typescript'],
   },
-    {
+  {
     name: 'a KID called NFA', 
-    description: 'a KID called NFA is a NFT/Crypto analytics tool for AKCB', 
+    description: 'NFT/Crypto analytics tools', 
     src: 'akcn.gif',
+    technologies: ['React', 'Next.js','Node.js'],
+  },
+  {
+    name: 'Bankkshop', 
+    description: 'Custom DB reward marketplaces for nft collections, or other use cases of reward marketplace.', 
+    src: 'mrkt.png',
     technologies: ['React', 'Next.js','Node.js'],
   },
   {
@@ -28,7 +34,7 @@ const projects = [
     site: 'https://twitter.com/alienevobotfren', 
     technologies: ['Typescript', 'Shell' ],
   },
-    {
+  {
     name: 'Goerli Drippy Avatars', 
     description: 'Goerli Drippy Avatars is a interoperable drippy avatar NFT. This means you can add owned wearables and update the metadata to show your new drip!', 
     src: 'drippy.png', 
