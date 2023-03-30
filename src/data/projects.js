@@ -51,6 +51,20 @@ const projects = [
     technologies: ['React', 'Next.js','Node.js', 'CSS', 'HTML', 'TypeScript', 'Tailwind', 'jQuery', 'web3.js'],
   },
   {
+    name: 'Meme Generator', 
+    description: 'Meme generator for Year of The Rabbitz', 
+    src: 'meme.png',
+    site: 'https://www.rabbitz.wtf/meme', 
+    technologies: ['Next.js', 'TypeScript','Node.js', 'Tailwind'],
+  },
+  {
+    name: 'Analytics Tool', 
+    description: 'Meme generator for Year of The Rabbitz', 
+    src: 'tools.png',
+    site: 'https://tools.rabbitz.wtf/', 
+    technologies: ['Next.js', 'TypeScript','Node.js', 'Tailwind'],
+  },
+  {
     name: 'Manifold Punks', 
     description: 'Need a custom website?', 
     src: 'punks.gif',
