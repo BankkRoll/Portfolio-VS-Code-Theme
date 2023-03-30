@@ -17,7 +17,7 @@ const projects = [
   },
   {
     name: 'Walletool', 
-    description: 'Walletool is a web application that allows you to easily track your Ethereum wallet transactions and calculate their USD value in real-time. Keep track of your crypto investments with ease.', 
+    description: 'Walletool is a web application that allows you to easily track your Ethereum wallet transactions and calculate their USD value in real-time.', 
     src: 'wallet.png',
     site: 'https://walletool.xyz/', 
     technologies: ['Next.js', 'TypeScript','Node.js', 'Tailwind'],
