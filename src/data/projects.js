@@ -30,7 +30,7 @@ const projects = [
     technologies: ['Next.js','Node.js', 'CSS', 'TypeScript', 'Firebase', 'web3.js'],
   },
   {
-    name: 'Bankkshop', 
+    name: 'MRKTIFY Marketplace', 
     description: 'Custom DB reward marketplaces for nft collections, or other use cases of reward marketplace.', 
     src: 'mrkt.png',
     site: 'https://bankkshop.vercel.app/',
