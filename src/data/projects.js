@@ -23,11 +23,18 @@ const projects = [
     technologies: ['Next.js', 'TypeScript','Node.js', 'Tailwind'],
   },
   {
+    name: 'MRKTIFY.xyz', 
+    description: 'SaaS ploduct, coming soon. Custom DB reward marketplaces for nft collections, or other use cases of reward marketplace.', 
+    src: 'marketplace.png',
+    site: 'https://mrktify.xyz/',
+    technologies: ['Next.js','Node.js', 'CSS', 'TypeScript', 'Firebase', 'web3.js'],
+  },
+  {
     name: 'Bankkshop', 
     description: 'Custom DB reward marketplaces for nft collections, or other use cases of reward marketplace.', 
     src: 'mrkt.png',
     site: 'https://bankkshop.vercel.app/',
-    technologies: ['React', 'Next.js', 'Node.js'],
+    technologies: ['React', 'Next.js', 'Firebase', 'Node.js'],
   },
   {
     name: 'Alien Evo Sales Bot', 
