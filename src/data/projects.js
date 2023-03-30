@@ -16,17 +16,18 @@ const projects = [
     technologies: ['Typescript'],
   },
   {
-    name: 'a KID called NFA', 
-    description: 'NFT/Crypto analytics tools', 
-    src: 'akcn.gif',
-    technologies: ['React', 'Next.js','Node.js'],
+    name: 'Walletool', 
+    description: 'Walletool is a web application that allows you to easily track your Ethereum wallet transactions and calculate their USD value in real-time. Keep track of your crypto investments with ease.', 
+    src: 'wallet.png',
+    site: 'https://walletool.xyz/', 
+    technologies: ['Next.js', 'TypeScript','Node.js', 'Tailwind'],
   },
   {
     name: 'Bankkshop', 
     description: 'Custom DB reward marketplaces for nft collections, or other use cases of reward marketplace.', 
     src: 'mrkt.png',
     site: 'https://bankkshop.vercel.app/',
-    technologies: ['React', 'Next.js','Node.js'],
+    technologies: ['React', 'Next.js', 'Node.js'],
   },
   {
     name: 'Alien Evo Sales Bot', 
