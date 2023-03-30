@@ -98,7 +98,7 @@ const projects = [
     description: 'A Space For All Frens In WEB3! We provide a global platform for all Web3 to pool skills, resources, opportunities for growth and have a great time!', 
     src: 'frensradio.gif', 
     site: 'https://frensradio.io', 
-    technologies: ['React', 'Next.js', 'web3.js', 'CSS'],
+    technologies: ['React', 'Next.js', 'web3.js'],
   },
   {
     name: 'Frens Connect Web-App', 
