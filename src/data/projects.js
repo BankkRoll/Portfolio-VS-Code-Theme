@@ -38,7 +38,7 @@ const projects = [
   },
   {
     name: 'Royale Rumble', 
-    description: 'Custom DB reward marketplaces for nft collections, or other use cases of reward marketplace.', 
+    description: 'Royale Rumble is a decentralized game that allows players to battle it out to become the last one standing.', 
     src: 'royale.png',
     site: 'https://royalerumble.xyz',
     technologies: ['React', 'Next.js', 'Node.js', 'Tailwind', 'TypeScript', 'ethers.js'],
