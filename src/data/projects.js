@@ -37,6 +37,13 @@ const projects = [
     technologies: ['React', 'Next.js', 'Firebase', 'Node.js'],
   },
   {
+    name: 'Royale Rumble', 
+    description: 'Custom DB reward marketplaces for nft collections, or other use cases of reward marketplace.', 
+    src: 'royale.png',
+    site: 'https://royalerumble.xyz',
+    technologies: ['React', 'Next.js', 'Node.js', 'Tailwind', 'TypeScript', 'ethers.js'],
+  },
+  {
     name: 'Alien Evo Sales Bot', 
     description: 'Alien Frens Evolution Twitter Sales Bot', 
     src: 'evobotfren.png', 
