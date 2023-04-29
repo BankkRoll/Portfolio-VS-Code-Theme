@@ -9,7 +9,7 @@ const projects = [
   },
   {
     name: 'Server Inspector', 
-    description: 'Discord Security Bot | Join Gate - Raid/Link Defence - 99.9% Uptime - SECURITY |', 
+    description: 'Discord Security Bot w/ Join Gate - Raid/Link Defence - 99.9% Uptime - SECURITY ', 
     src: 'server.gif',
     repository: 'https://github.com/BankkRoll/Server-Inspector',
     site: 'https://serverinspector.xyz', 
@@ -17,7 +17,7 @@ const projects = [
   },
   {
     name: 'Web3Button Generator - thirdweb', 
-    description: 'Provides an intuitive interface for creating a custom button to interact with Ethereum smart contracts. Perfect for developers who need to quickly generate buttons for their DApps.', 
+    description: 'Provides an intuitive interface for quickly generating `Web3Button` for your DApp.', 
     src: 'https://user-images.githubusercontent.com/106103625/235013049-6b5af32c-27e6-4b31-8f79-ee68b1d667f8.png',
     site: 'https://thirdweb-web3button.vercel.app/',
     repository: 'https://github.com/BankkRoll/thirdweb-Web3Button-generator',
@@ -40,7 +40,7 @@ const projects = [
   },
   {
     name: 'Memory Loler', 
-    description: 'A web app built with React that allows users to search for the historical screen names of Twitter accounts using Memory.lol, creating our own API.', 
+    description: 'Search for the historical screen names of Twitter accounts using Memory.lol, creating our own API.', 
     src: 'https://user-images.githubusercontent.com/106103625/234483381-98d6b3c1-c71d-4ff6-a0a2-3f8b7bb43a54.png',
     site: 'https://memoryloler.vercel.app/',
     repository: 'https://github.com/BankkRoll/memoryloler',
