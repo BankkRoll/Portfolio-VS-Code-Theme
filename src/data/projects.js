@@ -34,7 +34,7 @@ const projects = [
   {
     name: 'NFTGEN - NFT Generator', 
     description: 'NFTGEN is an open-source tool for generating unique NFT images or GIFs, complete with metadata. Easily upload directly to IPFS via thirdweb.', 
-    src: 'https://user-images.githubusercontent.com/106103625/234408697-d7fbc1d1-fbf2-4dd7-9c9d-fa4384613886.mp4',
+    src: 'https://i.ibb.co/kBwgZGh/ezgif-com-video-to-gif.gif',
     repository: 'https://github.com/BankkRoll/NFTGEN-nft-generator',
     technologies: ['Node.js', 'Sharp', 'Thirdweb'],
   },
