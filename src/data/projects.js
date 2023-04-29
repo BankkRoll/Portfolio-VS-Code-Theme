@@ -16,6 +16,37 @@ const projects = [
     technologies: ['Typescript'],
   },
   {
+    name: 'Web3Button Generator - thirdweb', 
+    description: 'Provides an intuitive interface for creating a custom button to interact with Ethereum smart contracts. Perfect for developers who need to quickly generate buttons for their DApps.', 
+    src: 'https://user-images.githubusercontent.com/106103625/235013049-6b5af32c-27e6-4b31-8f79-ee68b1d667f8.png',
+    site: 'https://thirdweb-web3button.vercel.app/',
+    repository: 'https://github.com/BankkRoll/thirdweb-Web3Button-generator',
+    technologies: ['Next.js', 'TypeScript', 'Thirdweb'],
+  },
+  {
+    name: 'Snapshot Tool - thirdweb', 
+    description: 'A simple tool for fetching NFT balances from a smart contract. Supports all ERC-721 contracts.', 
+    src: 'https://user-images.githubusercontent.com/106103625/235228591-d1fc15ba-0a33-4241-9ebc-8223399d477c.png',
+    site: 'https://snapshottool.vercel.app/',
+    repository: 'https://github.com/BankkRoll/snapshot-tool-thirdweb',
+    technologies: ['Next.js', 'TypeScript', 'Thirdweb'],
+  },
+  {
+    name: 'NFTGEN - NFT Generator', 
+    description: 'NFTGEN is an open-source tool for generating unique NFT images or GIFs, complete with metadata. Easily upload directly to IPFS via thirdweb.', 
+    src: 'https://user-images.githubusercontent.com/106103625/234408697-d7fbc1d1-fbf2-4dd7-9c9d-fa4384613886.mp4',
+    repository: 'https://github.com/BankkRoll/NFTGEN-nft-generator',
+    technologies: ['Node.js', 'Sharp', 'Thirdweb'],
+  },
+  {
+    name: 'Memory Loler', 
+    description: 'A web app built with React that allows users to search for the historical screen names of Twitter accounts using Memory.lol, creating our own API.', 
+    src: 'https://user-images.githubusercontent.com/106103625/234483381-98d6b3c1-c71d-4ff6-a0a2-3f8b7bb43a54.png',
+    site: 'https://memoryloler.vercel.app/',
+    repository: 'https://github.com/BankkRoll/memoryloler',
+    technologies: ['Next.js', 'TypeScript','Node.js', 'Tailwind'],
+  },
+  {
     name: 'Walletool', 
     description: 'Walletool is a web application that allows you to easily track your Ethereum wallet transactions and calculate their USD value in real-time.', 
     src: 'wallet.png',
@@ -257,27 +288,6 @@ const projects = [
     description: 'FROOTIEZ NFT', 
     src: 'frootiez.png', 
     technologies: ['React', 'HTML', 'CSS', 'JavaScript', 'web3.js', 'Solidity'],
-  },
-  {
-    name: 'Fr00py Land Game', 
-    description: 'Fr00py Land game for a fun expeirnce of two boys NFT', 
-    src: 'froopy.gif', 
-    site: 'https://bankkrolleth.itch.io/fr00pyland', 
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-  },
-  {
-    name: 'FROOTIEZ SHOOTIEZ Game', 
-    description: 'FROOTIEZ SHOOTIEZ NFT Game', 
-    src: 'frootiezshootiez.png', 
-    site: 'https://bankkrolleth.itch.io/frootiez-shootiez', 
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-  },
-  {
-    name: 'Budlist Game', 
-    description: 'Budlist game for wl or discord invite code', 
-    src: 'budlist.png', 
-    site: 'https://bankkrolleth.itch.io/budlist', 
-    technologies: ['HTML', 'CSS', 'JavaScript'],
   }
   
 ];
