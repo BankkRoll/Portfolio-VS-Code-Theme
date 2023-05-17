@@ -8,8 +8,8 @@ import '../styles/About.css';
 import IconCloud from '../components/IconCloud';
 
 function About() {
-  return ( 
-    <body>
+  return (
+    <div>
       <TitleBar />
       <section className="flex-container">
         <section className="main-container">
@@ -17,29 +17,52 @@ function About() {
           <MenuMobile />
           <main className="main-wrapper about">
             <div className="about-container">
-              <span className="span-tag html">{'<html>'}</span>
+            <span className="span-tag import">{'import { '} 
+            <span className="span-highlight">
+            HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Bootstrap, jQuery, Node.js, Python, Solidity, Ethereum, Solana, Web3.js, Vercel, Netlify, Twitter, Discord
+            </span>
+              {' } from '}
+            <span className="span-highlight">
+              "Relevant Skills"
+              </span>
+              {';'}
+            </span>
+            <br/>
+            <br/>
+            <span className="span-tag code">
+              {'function '}
+              <span className="span-highlight">
+                About
+              </span>
+              {'() {'}
+            </span>
+
               <br/>
-              <span className="span-tag body">{'<body>'}</span>
+              <br/>
+              <span className="span-tag body">{'<main>'}</span>
               <br/>
               <span className="span-tag content">{'<h1>'}</span>
-                <h1 className="title-about">Hello,</h1>
+              <h1 className="title-about">Hello,</h1>
               <span className="span-tag content">{'</h1>'}</span>
               <br/>
-              <span className="span-tag content">{'<p>'}</span>
-                <p className="text-about">
-                  My name is <span className="span-highlight">Bankkroll</span> and I love solving problems through code. Currently growing to be a <span className="span-highlight">Full Stack Developer.</span>
-                </p>
-                <p className="text-about">
-                  My focus is to help improve WEB3 & WEB2, by developing applications/products that are <span className="span-highlight">accessible and easily functional</span> to everyone.
-                </p>
-                <p className="text-about last">
-                Relevant skills include: <span className="span-highlight">HTML, CSS, Python, Typescript, Javascript, Next, React, Node, Tailwind, Java, Bootstrap, Jquery, Solidity, Rust, Vercel, Netlify, Ethereum, Solana, Twitter, Discord, Web3.</span>
-                </p>
-              <span className="span-tag content">{'</p>'}</span>
+              <span className="span-tag content1">{'<p>'}</span>
+              <p className="text-about">
+                Hello! I'm <span className="span-highlight">Bankkroll</span> and I love solving problems through code. Currently growing to be a <span className="span-highlight">Full Stack Developer.</span>
+              </p>
+              <p className="text-about last">
+                My focus is to help improve WEB3 & WEB2, by developing applications/products that are accessible and easily functional to everyone.
+              </p>
+              <span className="span-tag content1">{'</p>'}</span>
               <br/>
-              <span className="span-tag body">{'</body>'}</span>
+              <span className="span-tag body">{'</main>'}</span>
               <br/>
-              <span className="span-tag html">{'</html>'}</span>
+              <br/>
+              <span className="span-tag code">{`export default `}</span>
+              <span className="span-highlight">
+                About
+              </span>
+              <span className="span-tag code">{`;`}</span>
+
             </div>
             <IconCloud />
           </main>
@@ -47,7 +70,7 @@ function About() {
         <SideBar />
       </section>
       <Footer />
-    </body>
+    </div>
   );
 }
 
