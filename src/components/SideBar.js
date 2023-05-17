@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import '../styles/SideBar.css';
 import react_icon from '../images/react_icon.svg'
 import js_icon from '../images/js_icon.svg'
-import html_icon from '../images/html_icon.svg'
+import typescript_icon from '../images/typescript_icon.svg'
 import markdown_icon from '../images/markdown_icon.svg'
 import css_icon from '../images/css_icon.svg'
 import json_icon from '../images/json_icon.svg'
@@ -34,8 +34,8 @@ function SideBar() {
             <p>Home.jsx</p>
           </Link>
           <Link to="/about" className="explorer-file">
-            <img src={ html_icon } alt="icon" className="icon-side-bar"/>
-            <p>About.html</p>
+            <img src={ typescript_icon } alt="icon" className="icon-side-bar"/>
+            <p>About.tsx</p>
           </Link>
           <Link to="/projects" className="explorer-file">
             <img src={ js_icon } alt="icon" className="icon-side-bar"/>

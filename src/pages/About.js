@@ -17,7 +17,7 @@ function About() {
           <MenuMobile />
           <main className="main-wrapper about">
             <div className="about-container">
-            <span className="span-tag import">{'import { '} 
+            <span className="span-tag import">{'import { '}
             <span className="span-highlight">
             HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Bootstrap, jQuery, Node.js, Python, Solidity, Ethereum, Solana, Web3.js, Vercel, Netlify, Twitter, Discord
             </span>

@@ -31,7 +31,7 @@
 
 .text-about {
   color: var(--white-100);
-  margin-left: 2.4rem;
+  margin-left: 3.8rem;
   margin-bottom: 1.5rem;
   font-size: 1.1rem;
 }
@@ -41,17 +41,27 @@
 }
 
 .span-tag {
-  font-family: 'La Belle Aurore', cursive;
   color: var(--gray-100);
+}
+
+.span-tag.import {
+
 }
 
 .span-tag.body {
   margin-left: 0.8rem;
+  color: rgb(1, 201, 1);
 }
 
 
 .span-tag.content {
   margin-left: 1.6rem;
+  color: rgb(252, 50, 50);
+}
+
+.span-tag.content1 {
+  margin-left: 3rem;
+  color: rgb(232, 252, 50);
 }
 
 .tag {
