@@ -34,7 +34,7 @@ const projects = [
   {
     name: 'nextjs-pagination',
     description: 'Nextjs-Pagination is a easy-to-use pagination component built specifically for Next.js projects.', 
-    src: 'repotopdf.png',
+    src: 'nextjspag.png',
     site: 'https://www.npmjs.com/package/nextjs-pagination',
     repository: 'https://github.com/BankkRoll/nextjs-pagination',
     technologies: ['React', 'typescript', 'Next.js'],
