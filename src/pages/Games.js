@@ -48,14 +48,8 @@ function Games() {
             <br></br>
             <Iframe iframe={demos["Galactic"]}/>
             <br></br>
-            
             <Iframe iframe={demos["Frootiez"]}/>
                   
-                
-                
-                
-              
-            
           </div>
         </main>
       </section>
