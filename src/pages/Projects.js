@@ -43,8 +43,8 @@ function Projects() {
                 </div>
               </div>
             ))}
+            <h1 className="title-page-projects">And Many More!!</h1>
           </div>
-         <h1 className="title-page-projects">And Many More!!</h1>
         </main>
       </section>
       <SideBar />
