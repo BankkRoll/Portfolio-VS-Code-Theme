@@ -20,7 +20,7 @@ const projects = [
     description: '*IN PROGRESS* The First ever low-code bitcoin ordinals full-stack minting boilerplate.', 
     src: 'bitmint.png',
     repository: 'https://github.com/BankkRoll/BitMint2',
-    site: 'https://bitmint.vercel.app/',
+    site: 'https://bitmint-beta.vercel.app/',
     technologies: ['IN PROGRESS', 'IN PROGRESS', 'IN PROGRESS', 'IN PROGRESS'],
   },
   {
