@@ -1,92 +1,76 @@
-.main-wrapper.about {
-  justify-content: center;
-  gap: 4rem;
-}
-
 .about-container {
-  width: min(800px, 90vw);
+  margin-left: 30px;
   margin-top: 30px;
+  width: min(800px, 90vw);
 }
-
-.title-about {
-  font-size: 45px;
-  margin-left: 2.5rem;
-  color: var(--white-100);
-}
-
-/* .title-about:first-of-type:before {
-  content: '<h1>';
-  font-family: 'La Belle Aurore',cursive;
-  color: #515152;
-  font-size: 18px;
-  position: absolute;
-  margin-top: -1rem;
-  left: -2rem;
-} */
 
 .iconCloud-container {
-  width: 450px;
   margin-top: 50px;
+  width: 450px;
 }
 
-.text-about {
-  color: var(--white-100);
-  margin-left: 3.8rem;
-  margin-bottom: 1.5rem;
-  font-size: 1.1rem;
+.main-wrapper.about {
+  gap: 4rem;
+  justify-content: center;
 }
 
-.text-about.last {
-  margin-bottom: 0;
-}
+@media screen and (max-width: 1090px) {
+  .about-container {
+    margin-top: 120px;
+    width: min(600px, 90vw);
+  }
 
-.span-tag {
-  color: var(--gray-100);
-}
+  .iconCloud-container {
+    margin-bottom: 70px;
+    width: 350px;
+  }
 
-.span-tag.import {
-
-}
-
-.span-tag.body {
-  margin-left: 0.8rem;
-  color: rgb(1, 201, 1);
-}
-
-
-.span-tag.content {
-  margin-left: 1.6rem;
-  color: rgb(252, 50, 50);
-}
-
-.span-tag.content1 {
-  margin-left: 3rem;
-  color: rgb(232, 252, 50);
-}
-
-.tag {
-  font-family: 'La Belle Aurore', cursive;
-  color: var(--gray-100);
+  .main-wrapper.about {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 }
 
 .span-highlight {
   color: var(--blue-200);
 }
 
+.tag {
+  font-family: "La Belle Aurore", cursive;
+}
 
-@media screen and (max-width: 1090px) {
-  .main-wrapper.about {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
+.text-about {
+  color: var(--white-100);
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  margin-left: 3.8rem;
+}
 
-  .about-container {
-    width: min(600px, 90vw);
-    margin-top: 120px;
-  }
+.text-about.last {
+  margin-bottom: 0;
+}
 
-  .iconCloud-container {
-    width: 350px;
-    margin-bottom: 70px;
-  }
+.title-about {
+  color: var(--white-100);
+  font-size: 45px;
+  margin-left: 2.5rem;
+}
+
+.span-tag.body {
+  color: #01c901;
+  margin-left: 0.8rem;
+}
+
+.span-tag.content {
+  color: #fc3232;
+  margin-left: 1.6rem;
+}
+
+.span-tag.content1 {
+  color: #e8fc32;
+  margin-left: 3rem;
+}
+
+.span-tag, .tag {
+  color: var(--gray-100);
 }

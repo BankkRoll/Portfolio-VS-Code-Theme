@@ -2,7 +2,7 @@ const projects = [
   {
     name: 'GitHub',
     description: 'View my github',
-    src: 'tmk.png',
+    src: 'github.png',
     site: 'https://github.com/BankkRoll',
     repository: 'https://github.com/BankkRoll',
     technologies: ['React', 'Next.js','Node.js', 'CSS', 'HTML'],
@@ -10,9 +10,9 @@ const projects = [
   {
     name: 'Server Inspector',
     description: 'Discord Security Bot w/ Join Gate - Raid/Link Defence - 99.9% Uptime - SECURITY ',
-    src: 'server.gif',
+    src: 'serverinspector.gif',
     repository: 'https://github.com/BankkRoll/Server-Inspector',
-    site: 'https://serverinspector.xyz',
+    site: 'https://serverinspector.vercel.app',
     technologies: ['Typescript'],
   },
   {
@@ -86,7 +86,7 @@ const projects = [
   },
   {
     name: 'Alien Evo Sales Bot',
-    description: 'Alien Frens Evolution Twitter Sales Bot',
+    description: 'Offline twitter is paid now :(',
     src: 'evobotfren.png',
     site: 'https://twitter.com/alienevobotfren',
     technologies: ['Typescript', 'Shell' ],
@@ -94,17 +94,9 @@ const projects = [
   {
     name: 'Custom Website',
     description: 'Need a custom website?',
-    src: '6684.gif',
+    src: 'wixcustom.gif',
     site: 'https://twitter.com/bankkroll_eth',
     technologies: ['React', 'Next.js','Node.js', 'CSS', 'HTML', 'TypeScript', 'Tailwind', 'jQuery', 'web3.js'],
-  },
-  {
-    name: 'Custom Portfolio',
-    description: 'Need a custom Portfolio?',
-    src: '6688.gif',
-    site: 'https://frentech.vercel.app/',
-    repository: 'https://github.com/BankkRoll/Development-Portfolio',
-    technologies: ['React', 'Next.js','Node.js', 'Chakra'],
   },
   {
     name: 'Meme Generator',
@@ -115,7 +107,7 @@ const projects = [
   },
   {
     name: 'Analytics Tool',
-    description: 'Meme generator for Year of The Rabbitz',
+    description: 'Analytics Tool for Year of The Rabbitz',
     src: 'tools.png',
     site: 'https://tools.rabbitz.wtf/',
     technologies: ['Next.js', 'TypeScript','Node.js', 'Tailwind'],
@@ -135,7 +127,7 @@ const projects = [
     technologies: ['React', 'Next.js', 'Node.js', 'web3.js', 'Tailwind CSS'],
   },
    {
-    name: 'The Lucky Llamas Website',
+    name: 'The Lucky Llamas',
     description: '🦙🦙🦙 Collection of 4,444 Lucky Llamas 🦙🦙🦙 ',
     src: 'llamas.gif',
     site: 'https://www.theluckyllamas.com/',
@@ -165,42 +157,29 @@ const projects = [
   {
     name: 'ShrineList Wallet Checker (WL Checker)',
     description: 'Custom Wallet Checker for WL spots.',
-    src: 'wlsad.gif',
+    src: 'shrinelist.gif',
     technologies: ['React', 'Next.js', 'CSS'],
   },
   {
     name: 'Shrine After Died',
     description: 'Shrine After Died is a genesis AI collection by GLR.',
     src: 'sad.gif',
+    site: 'https://opensea.io/collection/shrine-after-died',
     technologies: ['React', 'Next.js', 'web3.js', 'HTML', 'CSS'],
   },
   {
     name: 'The Chariot',
     description: 'The Chariot NFT',
     src: 'chariot.png',
-    site: 'https://www.thechariotnft.xyz/',
+    site: 'https://opensea.io/collection/elighs-music-collection',
     technologies: ['React', 'HTML', 'CSS', 'JavaScript', 'web3.js', 'Solidity'],
   },
   {
     name: 'The Ascended Masters',
     description: 'The Ascended Masters NFT',
     src: 'am.png',
-    site: 'https://www.ascendedmasters.xyz/',
+    site: 'https://opensea.io/collection/theascendedmasters',
     technologies: ['React', 'HTML', 'CSS', 'JavaScript', 'web3.js', 'Solidity'],
-  },
-  {
-    name: 'Frens Radio Network Website',
-    description: 'A Space For All Frens In WEB3! We provide a global platform for all Web3 to pool skills, resources, opportunities for growth and have a great time!', 
-    src: 'frensradio.gif',
-    site: 'https://frensradio.io',
-    technologies: ['React', 'Next.js', 'web3.js'],
-  },
-  {
-    name: 'Frenship Book Company',
-    description: 'Creating picture books to inspire and guide children in Web 3.0 and the rest of the world. Author ✍️ @Rave4_H - Illustrator 🖌️@jpegjonno', 
-    src: 'frenshipbook.gif',
-    site: 'https://www.frenshipbookcompany.com/',
-    technologies: ['React', 'core-js', 'jQuery'],
   },
   {
     name: 'NFT Site or Somthing',

@@ -1,7 +1,7 @@
-.main-wrapper.contact {
-  justify-content: center;
-  gap: 6rem;
-  align-items: center;
+a {
+  color: var(--blue-200);
+  font-size: 1.2rem;
+  list-style: none;
 }
 
 .class-name {
@@ -16,39 +16,16 @@
 
 .key-name {
   color: var(--white-100);
+  font-size: 1.2rem;
   margin-left: 1.2rem;
-  font-size: 1.2rem;
-}
-
-a {
-  color: var(--blue-200);
-  list-style: none;
-  font-size: 1.2rem;
-}
-
-.title-container {
-  width: min(400px, 90vw);
-  margin-top: 30px;
-  text-align: center;
-}
-
-.title-contact {
-  font-size: 2rem;
-  color: var(--white-100);
-}
-
-.message-contact {
-  color: var(--gray-100);
-  font-size: 1rem;
-  margin-top: 1.5rem;
 }
 
 .list-contact {
-  counter-reset: line;
   counter-increment: line 0;
+  counter-reset: line;
+  padding-left: 7rem;
   position: relative;
   white-space: pre-wrap; 
-  padding-left: 7rem;
 }
 
 .list-contact .line {
@@ -57,24 +34,46 @@ a {
 }
 
 .list-contact .line:before {
-  font-size: 1rem;
-  font-weight: normal;
-  position: absolute;
-  left: -10px;
+  border: none;
+  border-left: 1px solid var(--gray-200);
+  color: var(--gray-100);
   content: counter(line);
   counter-increment: line;
   display: inline-block;
-  border:none;
-  color: var(--gray-100);
   font-family: 'Fira Code', monospace;
+  font-size: 1rem;
+  font-weight: normal;
+  left: -10px;
   padding-left: 6rem;
-  border-left: 1px solid var(--gray-200);
+  position: absolute;
+}
+
+.main-wrapper.contact {
+  align-items: center;
+  gap: 6rem;
+  justify-content: center;
+}
+
+.message-contact {
+  color: var(--gray-100);
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+
+.title-contact {
+  color: var(--white-100);
+  font-size: 2rem;
+}
+
+.title-container {
+  margin-top: 30px;
+  text-align: center;
+  width: min(400px, 90vw);
 }
 
 @media screen and (max-width: 1150px) {
-  .main-wrapper.contact {
-    flex-direction: column;
-    gap: 4rem;
+  .list-contact {
+    padding-left: 1.6rem;
   }
 
   .list-contact .line:before {
@@ -82,8 +81,10 @@ a {
     padding-left: 1rem;
   }
 
-  .list-contact {
-    padding-left: 1.6rem;
+  .main-wrapper.contact {
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: 100px;
   }
 
   .title-contact {

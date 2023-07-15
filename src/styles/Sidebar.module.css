@@ -1,11 +1,13 @@
-.sidebar {
-  background: var(--sidebar-bg);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 4.5vw;
-  min-width: 40px;
-  height: calc(100vh - 30px - 25px);
+.active {
+  border-left: 2px solid var(--accent-color);
+}
+
+.icon {
+  display: block;
+  height: 50px;
+  margin: 0 auto;
+  padding: 0.65rem 0;
+  width: 50px;
 }
 
 .iconContainer {
@@ -17,16 +19,14 @@
   background: var(--sidebar-hover-bg);
 }
 
-.active {
-  border-left: 2px solid var(--accent-color);
-}
-
-.icon {
-  height: 50px;
-  width: 50px;
-  padding: 0.65rem 0;
-  display: block;
-  margin: 0 auto;
+.sidebar {
+  background: var(--sidebar-bg);
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 30px - 25px);
+  justify-content: space-between;
+  min-width: 40px;
+  width: 4.5vw;
 }
 
 @media screen and (min-width: 2000px) {
@@ -42,23 +42,23 @@
 }
 
 @media screen and (max-width: 900px) {
-  .sidebar {
-    width: 8vw;
-  }
   .icon {
     height: 48px;
-    width: 48px;
     padding: 0.6rem;
+    width: 48px;
+  }
+  .sidebar {
+    width: 8vw;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .sidebar {
-    width: 10vw;
-  }
   .icon {
     height: 40px;
-    width: 40px;
     padding: 0.6rem;
+    width: 40px;
+  }
+  .sidebar {
+    width: 10vw;
   }
 }

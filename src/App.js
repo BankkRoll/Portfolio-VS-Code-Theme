@@ -9,6 +9,7 @@ import Recommendation from './pages/Recommendation';
 import Games from './pages/Games';
 
 import AppProvider from './context/AppProvider';
+import ProjectDetail from './pages/ProjectDetail';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={ <About /> } />
         <Route path="/projects" element={ <Projects /> } />
         <Route path="/contact" element={ <Contact /> } />
+        <Route path="/projects/:index" element={ <ProjectDetail /> } />
         <Route path="/recommendation" element={ <Recommendation /> } />
         <Route path="/games" element={ <Games /> } />
       </Routes>

@@ -12,15 +12,20 @@ import { Link } from "react-router-dom";
 import myContext from "../context/AppContext";
 
 function SideBar() {
-  const {activeSideBar} = useContext(myContext)
-  const [open, setOpen] =useState(true);
-  return ( 
+  const {activeSideBar, setActiveSideBar} = useContext(myContext)
+  const [open, setOpen] = useState(true);
+
+  const closeSidebar = () => {
+    setActiveSideBar(false);
+  };
+
+  return (
     <aside className={`side-bar-container ${activeSideBar && 'active'}`}>
       <div  className="explore-title">
         <p>EXPLORER</p>
       </div>
-      <button type="button" 
-        className="explore-portfolio" 
+      <button type="button"
+        className="explore-portfolio"
         onClick={() => setOpen(!open)}
       >
         {open ? <IoIosArrowDown /> : <IoIosArrowForward />}
@@ -29,27 +34,27 @@ function SideBar() {
       </button>
       {open && (
         <>
-          <Link to="/" className="explorer-file">
+          <Link to="/" className="explorer-file" onClick={closeSidebar}>
             <img src={ react_icon } alt="icon" className="icon-side-bar"/>
             <p>Home.jsx</p>
           </Link>
-          <Link to="/about" className="explorer-file">
+          <Link to="/about" className="explorer-file" onClick={closeSidebar}>
             <img src={ typescript_icon } alt="icon" className="icon-side-bar"/>
             <p>About.tsx</p>
           </Link>
-          <Link to="/projects" className="explorer-file">
+          <Link to="/projects" className="explorer-file" onClick={closeSidebar}>
             <img src={ js_icon } alt="icon" className="icon-side-bar"/>
             <p>Projects.js</p>
           </Link>
-          <Link to="/recommendation" className="explorer-file">
+          <Link to="/recommendation" className="explorer-file" onClick={closeSidebar}>
             <img src={ json_icon } alt="icon" className="icon-side-bar"/>
             <p>Services.json</p>
           </Link>
-          <Link to="/contact" className="explorer-file">
+          <Link to="/contact" className="explorer-file" onClick={closeSidebar}>
             <img src={ css_icon } alt="icon" className="icon-side-bar"/>
             <p>Contact.css</p>
           </Link>
-          <Link to="/games" className="explorer-file">
+          <Link to="/games" className="explorer-file" onClick={closeSidebar}>
             <img src={ markdown_icon } alt="icon" className="icon-side-bar"/>
             <p>Games.txt</p>
           </Link>

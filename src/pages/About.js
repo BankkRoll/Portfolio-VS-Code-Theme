@@ -36,8 +36,9 @@ function About() {
               </span>
               {'() {'}
             </span>
-
               <br/>
+              <br/>
+              <span className="span-tag body">{'  return ('}</span>
               <br/>
               <span className="span-tag body">{'<main>'}</span>
               <br/>
@@ -47,7 +48,7 @@ function About() {
               <br/>
               <span className="span-tag content1">{'<p>'}</span>
               <p className="text-about">
-                Hello! I'm <span className="span-highlight">Bankkroll</span> and I love solving problems through code. Currently growing to be a <span className="span-highlight">Full Stack Developer.</span>
+                Hello! I'm <span className="span-highlight">Bankkroll</span> and I love solving problems through code. Currently growing <span className="span-highlight">Full Stack Developer.</span>
               </p>
               <p className="text-about last">
                 My focus is to help improve WEB3 & WEB2, by developing applications/products that are accessible and easily functional to everyone.
@@ -56,13 +57,14 @@ function About() {
               <br/>
               <span className="span-tag body">{'</main>'}</span>
               <br/>
+              <span className="span-tag body">{'  );'}</span>
+              <br/>
               <br/>
               <span className="span-tag code">{`export default `}</span>
               <span className="span-highlight">
                 About
               </span>
               <span className="span-tag code">{`;`}</span>
-
             </div>
             <IconCloud />
           </main>

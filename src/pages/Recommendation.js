@@ -9,7 +9,7 @@ import "../styles/Recommendation.css"
 
 
 function Projects() {
-  return ( 
+  return (
     <body>
     <TitleBar />
     <section className="flex-container">

@@ -8,7 +8,7 @@ import "../styles/Contact.css"
 import contacts from "../data/contacts";
 
 function Contact() {
-  return ( 
+  return (
     <body>
       <TitleBar />
       <section className="flex-container">
@@ -24,7 +24,7 @@ function Contact() {
               <p className="class-name line">.contact_me<span className="element">{' {'}</span></p>
               {
                 contacts.map(({social, href, text}) => (
-                  <p className="key-name line" key={social}>{social}: 
+                  <p className="key-name line" key={social}>{social}:
                     <a href={href} target="_blank" rel="noreferrer">{text}</a>;
                   </p>
                 ))

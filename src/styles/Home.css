@@ -1,70 +1,49 @@
 .home-content {
-  padding: 1rem;
   margin-top: 100px;
+  padding: 1rem;
 }
 
 .home-content h1 {
-  font-size: 45px;
   color: var(--white-100);
+  font-size: 45px;
 }
 
 .home-content h2 {
+  color: var(--gray-100);
   font-size: 22px;
   font-weight: 400;
-  color: var(--gray-100);
 }
 
 .home-content p {
-  font-size: 20px;
   color: var(--blue-200);
+  font-size: 20px;
 }
 
-.span {
-  color: var(--blue-200);
+.image-perfil {
+  margin-top: 50px;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transition: transform 0.2s ease-out;
+  width: 500px;
 }
 
 .main-wrapper.home {
   justify-content: center;
 }
 
-.image-perfil {
-  width: 500px;
-  margin-top: 50px;
-}
-
-.btn-download {
-  text-decoration: none;
-  border:none;
-  outline: none;
-  border-radius: 5px;
-  height: 50px;
-  width: 150px;
-  font-size: 1rem;
-  font-weight: 500;
-  margin-top: 2rem;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  background-color: var(--blue-300);
-  color: var(--white-100);
-  transition: 0.3s;
-}
-
-.btn-download:hover {
-  background-color: var(--blue-400);
-  color: var(--white-100);
+.span {
+  color: var(--blue-200);
 }
 
 @media screen and (max-width: 1375px) {
-  .main-wrapper.home {
-    flex-direction: column;
+  .btn-download {
+    width: 100%;
   }
 
   .home-content {
-    margin-top: 0;
     margin-bottom: 5rem;
+    margin-top: 0;
+    order: 2;
   }
 
   .home-content h1 {
@@ -80,16 +59,13 @@
   }
   
   .image-perfil {
-    width: 400px;
+    margin-bottom: 1rem;
     margin-top: 100px;
     order: 1;
-    margin-bottom: 1rem;
+    width: 400px;
   }
 
-  .home-content {
-    order: 2;
-  }
-  .btn-download {
-    width: 100%;
+  .main-wrapper.home {
+    flex-direction: column;
   }
 }

@@ -4,7 +4,7 @@ import '../styles/TitleBar.css';
 function TitleBar() {
   return ( 
     <section className="title-bar">
-      <p>Bankkroll.tsx - Portfolio</p>
+      <p>Bankkroll.md - Portfolio</p>
       <div className="title-btn">
         <span className="close"/>
         <span className="minimize"/>

@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 
 function Header({name, icon, path}) {
   const { pathname } = useLocation();
-  return ( 
+  return (
     <Link
       type="button"
       to={path}
