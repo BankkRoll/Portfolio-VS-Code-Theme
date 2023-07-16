@@ -10,7 +10,7 @@ const projects = [
   {
     name: 'Server Inspector',
     description: 'Discord Security Bot w/ Join Gate - Raid/Link Defence - 99.9% Uptime - SECURITY ',
-    src: 'serverinspector.gif',
+    src: 'serverinspector.png',
     repository: 'https://github.com/BankkRoll/Server-Inspector',
     site: 'https://serverinspector.vercel.app',
     technologies: ['Typescript'],
