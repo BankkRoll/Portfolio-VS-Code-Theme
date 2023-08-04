@@ -24,6 +24,22 @@ const projects = [
     technologies: ['IN PROGRESS', 'IN PROGRESS', 'IN PROGRESS', 'IN PROGRESS'],
   },
   {
+    name: 'nextension',
+    description: 'An Advanced CLI Tool for Building Next.js Applications as Chrome Extensions', 
+    src: 'nextension.png',
+    repository: 'https://github.com/BankkRoll/nextension',
+    site: 'https://www.npmjs.com/package/nextension',
+    technologies: ['Typescript', 'Node.js'],
+  },
+  {
+    name: 'rainbowkit-playground',
+    description: 'Interactive environment to customize components, understand their functionality, and changes in real time.', 
+    src: 'playground.jpg',
+    repository: 'https://github.com/BankkRoll/rainbowkit-playground',
+    site: 'https://rainbowkit-playground.vercel.app/',
+    technologies: ['React', 'typescript', 'Next.js'],
+  },
+  {
     name: 'Repo-to-PDF',
     description: 'Repo-to-PDF is a tool that allows you to convert a GitHub repository into a PDF file.', 
     src: 'repotopdf.png',
