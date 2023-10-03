@@ -28,6 +28,10 @@
   color: var(--white-100);
 }
 
+.blue {
+  color: var(--blue-200);
+}
+
 .recommendation-card {
   width: 400px;
   color: var(--white-100);

@@ -1,0 +1,105 @@
+/* ChatBot Container */
+.chat-bot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  /* Toggle Button */
+  .chat-bot button.toggle-button {
+    position: absolute; /* Positioned independently */
+    bottom: 0;
+    right: 0;
+    background-color: #768390;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 100%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .chat-bot button.toggle-button:hover {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  /* Chat Window */
+  .chat-window {
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
+    background-color: #2D333B;
+    box-shadow: 0 12px 56px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+  }
+  
+  /* Title */
+  .chat-window h4 {
+    margin-bottom: 16px;
+    font-size: 1.2em;
+  }
+  
+  /* Text Input */
+  .chat-window input {
+    width: 100%;
+    color: #fff;
+    padding: 12px;
+    margin: 8px 0;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Send Button */
+  .chat-window button[type="submit"] {
+    background-color: #0057b300;
+    outline-color: #fff;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .chat-window button[type="submit"]:hover {
+    background-color: #0057b300;
+    outline-color: #fff;
+  }
+  
+  /* Hide Chat Window when closed */
+  .chat-bot.closed .chat-window {
+    display: none;
+  }
+  
+  /* Change button content when chat is open */
+  .chat-bot.open button {
+    content: "X";
+  }
+
+.typing-container {
+  display: inline;
+  white-space: pre-wrap;
+  overflow: hidden;
+  border-right: .15em solid black;
+  animation: typingCursor .8s step-end infinite;
+}
+
+.no-cursor {
+  animation: none;
+  border-right: none;
+}
+
+@keyframes typingCursor {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+
+  

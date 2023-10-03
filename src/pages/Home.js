@@ -44,7 +44,7 @@ function Home() {
                   'Full Stack Developer', 1000,
                   'Blockchain Specialist', 1000,
                   'AI Enthusiast', 1000,
-                  'Cybersecurity Specialist', 1000]}
+                  'Cybersecurity Guru', 1000]}
                 loop={Infinity}
                 wrapper="h2"
               />

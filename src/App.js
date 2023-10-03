@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Recommendation from './pages/Recommendation';
 import Games from './pages/Games';
+import ChatBot from './components/ChatBot';
 
 import AppProvider from './context/AppProvider';
 import ProjectDetail from './pages/ProjectDetail';
@@ -23,6 +24,7 @@ function App() {
         <Route path="/recommendation" element={ <Recommendation /> } />
         <Route path="/games" element={ <Games /> } />
       </Routes>
+      <ChatBot />
     </AppProvider>
   );
 }

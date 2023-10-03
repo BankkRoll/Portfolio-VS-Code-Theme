@@ -1,33 +1,35 @@
 const recommendation = [
   {
-    name: 'Discord', 
-    message: 'Discord Security Audits, Server Builds, Bot Development',
-    info: '*WILL NOT BREAK TOS'
+    name: 'Web Development',
+    message: 'Custom Web Development services, ranging from Single-Page to Multi-Page Websites, eCommerce Solutions, and more.',
+    info: 'Built in accordance with industry best practices.'
   },
   {
-    name: 'Twitter', 
-    message: 'Bots and Simple Oauth sites',
-    info: '*WILL NOT BREAK TOS'
+    name: 'Software Tools',
+    message: 'Development of specialized tools for NFT analytics, Add-to-Cart functionalities, Web Scraping, and Data Parsing.',
+    info: 'Compliant with applicable laws and regulations.'
   },
   {
-    name: 'WEB3', 
-    message: 'Mint DApps, Marketplaces, Applications, Gated Content/Site',
+    name: 'Discord',
+    message: 'Comprehensive services for Discord, including Security Audits, Server Configuration, and Bot Development.',
+    info: 'Compliant with Discord’s Terms of Service.'
   },
   {
-    name: 'Web Development', 
-    message: 'Multi/Single-Page Websites, Ecommerce Marketplaces, Applicaitons , Software, ECT..',
-    info: '*WILL NOT BREAK TOS' 
+    name: 'Twitter',
+    message: 'Custom solutions for Twitter, featuring Bots and OAuth-enabled engagement platforms.',
+    info: 'Adheres to Twitter’s Terms of Service.'
   },
   {
-    name: 'Software Tools', 
-    message: 'NFT Stat Tools, ATC, Bots, Scrapers/Parsers',
-    info: '*WILL NOT BREAK TOS' 
+    name: 'WEB3',
+    message: 'Decentralized solutions for WEB3, including DApps for Minting, Marketplaces, and Gated Content.',
+    info: 'Complies with standard WEB3 protocols.'
   },
   {
-    name: 'Full Stack Development', 
-    message: 'Front End, Back End, Databases, Browser/Server, & Software',
-    info: '*WILL NOT BREAK TOS' 
+    name: 'Full Stack Development',
+    message: 'End-to-End Development services, covering Frontend, Backend, Database Management, and more.',
+    info: 'Developed to meet or exceed industry standards.'
   }
 ];
 
 export default recommendation;
+

@@ -6,7 +6,6 @@ import SideBar from "../components/SideBar";
 import MenuMobile from "../components/MenuMobile";
 import projects from "../data/projects"
 import "../styles/Projects.css"
-import { FiExternalLink, FiGithub } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
 
@@ -39,10 +38,6 @@ function Projects() {
                   {technologies.map(tech => (
                     <span className="span-technologies">{tech}</span>
                   ))}
-                </div>
-                <div className="links-container">
-                  <a href={repository ? repository : "#"} title="Github" target="_blank" rel="noreferrer" className={repository ? "" : "nolink"}><FiGithub /></a>
-                  <a href={site ? site : "#"} title="Site" target="_blank" rel="noreferrer" className={site ? "" : "nolink"}><FiExternalLink /></a>
                 </div>
               </div>
               </Link>

@@ -6,6 +6,7 @@ const projects = [
     site: 'https://github.com/BankkRoll',
     repository: 'https://github.com/BankkRoll',
     technologies: ['React', 'Next.js','Node.js', 'CSS', 'HTML'],
+    category: 'websites'
   },
   {
     name: 'Server Inspector',
@@ -16,13 +17,54 @@ const projects = [
     technologies: ['Typescript'],
   },
   {
-    name: 'BitMint',
-    description: '*IN PROGRESS* The First ever low-code bitcoin ordinals full-stack minting boilerplate.', 
-    src: 'bitmint.png',
-    repository: 'https://github.com/BankkRoll/BitMint2',
-    site: 'https://bitmint-beta.vercel.app/',
-    technologies: ['IN PROGRESS', 'IN PROGRESS', 'IN PROGRESS', 'IN PROGRESS'],
+    name: 'ClickFusion',
+    description: 'A library for React that adds dynamic and interactive effects to your buttons and links.', 
+    src: 'https://user-images.githubusercontent.com/106103625/271151082-928dec78-fef2-40ca-8871-d94095972a42.gif',
+    repository: 'https://github.com/BankkRoll/ClickFusion',
+    site: 'https://clickfusion.mintlify.app/introduction',
+    technologies: ['Typescript'],
   },
+  {
+    name: 'Icy Gem Empire',
+    description: 'Experience the beauty of diamonds without the high cost.', 
+    src: 'icygemempire.gif',
+    site: 'https://icygemempire.myshopify.com/',
+    technologies: ['Custom Shopify'],
+  },
+  {
+    name: 'Bushleague Media',
+    description: 'Intertwine sustainable business & the power of blockchain technology.', 
+    src: 'bushleague.gif',
+    site: 'https://www.bushleaguemedia.com/',
+    technologies: ['Custom Wix'],
+  },
+  {
+    name: 'Infinite Creations', 
+    description: 'Infinite Creations aims to produce a wide range of handmade products.', 
+    src: 'infinitecreations.gif',
+    site: 'https://infinitecreations.xyz/',
+    technologies: ['Custom Shopify'],
+  },
+  {
+    name: 'Custom Website',
+    description: 'Need a custom website?',
+    src: 'wixcustom.gif',
+    site: 'https://twitter.com/bankkroll_eth',
+    technologies: ['React', 'Next.js', 'Shopify', 'Webflow',  'Wix', 'Framer', 'ect..'],
+  },
+
+
+
+
+  {
+    name: 'auto-header-est2023',
+    description: 'Automatically insert header comments tailored to your preferences for every file you create. - VSCode extension', 
+    src: 'https://github.com/BankkRoll/auto-header-est2023/assets/106103625/d5ccd12d-336f-4574-a2a6-2c012ddeea9c',
+    repository: 'https://github.com/BankkRoll/auto-header-est2023',
+    site: 'https://marketplace.visualstudio.com/items?itemName=Bankkroll.auto-header-est2023',
+    technologies: ['Typescript'],
+  },
+
   {
     name: 'nextension',
     description: 'An Advanced CLI Tool for Building Next.js Applications as Chrome Extensions', 
@@ -46,21 +88,6 @@ const projects = [
     site: 'https://freecodecamppdf.bankkroll.repl.co/',
     repository: 'https://github.com/BankkRoll/Repo-to-PDF',
     technologies: ['Node.js'],
-  },
-  {
-    name: 'nextjs-pagination',
-    description: 'Nextjs-Pagination is a easy-to-use pagination component built specifically for Next.js projects.', 
-    src: 'nextjspag.png',
-    site: 'https://www.npmjs.com/package/nextjs-pagination',
-    repository: 'https://github.com/BankkRoll/nextjs-pagination',
-    technologies: ['React', 'typescript', 'Next.js'],
-  },
-  {
-    name: 'GitBadge',
-    description: 'Show off your open-source contributions in a new, unique way.',
-    src: 'gitbadge.png',
-    site: 'https://gitbadge.xyz/',
-    technologies: ['Next.js', 'TypeScript', 'Thirdweb'],
   },
   {
     name: 'AskGit AI',
@@ -106,13 +133,6 @@ const projects = [
     src: 'evobotfren.png',
     site: 'https://twitter.com/alienevobotfren',
     technologies: ['Typescript', 'Shell' ],
-  },
-  {
-    name: 'Custom Website',
-    description: 'Need a custom website?',
-    src: 'wixcustom.gif',
-    site: 'https://twitter.com/bankkroll_eth',
-    technologies: ['React', 'Next.js','Node.js', 'CSS', 'HTML', 'TypeScript', 'Tailwind', 'jQuery', 'web3.js'],
   },
   {
     name: 'Meme Generator',
@@ -223,13 +243,6 @@ const projects = [
     description: 'PFP Overlay Changer',
     src: 'PFP.png',
     site: 'https://pfpgenerator.bankkroll.repl.co/',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'jQuery'],
-  },
-  {
-    name: 'PFP Background Changer',
-    description: 'PFP Background Changer',
-    src: 'PFPbg.png',
-    site: 'https://bg.bankkroll.repl.co/',
     technologies: ['HTML', 'CSS', 'JavaScript', 'jQuery'],
   }
 ];

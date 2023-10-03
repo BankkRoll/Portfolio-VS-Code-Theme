@@ -23,7 +23,7 @@ function Projects() {
               <div className={`recommendation-card ${index === 1 && 'border'}`} key={name}>
                 <p>{message}</p>
                 <h4>{info}</h4>
-                <a><h2>{name}</h2></a>
+                <p className="blue"><h2>{name}</h2></p>
               </div>
             ))}
           </div>

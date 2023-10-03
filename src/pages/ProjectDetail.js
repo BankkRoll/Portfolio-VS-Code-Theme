@@ -61,6 +61,7 @@ function ProjectDetail() {
                     </a>
                 )}
                 </div>
+                
             </div>
             </main>
         </section>
