@@ -1,35 +1,34 @@
 const recommendation = [
   {
-    name: 'Web Development',
-    message: 'Custom Web Development services, ranging from Single-Page to Multi-Page Websites, eCommerce Solutions, and more.',
-    info: 'Built in accordance with industry best practices.'
+    name: 'Web Development & eCommerce',
+    message: 'From responsive websites to custom eCommerce solutions, including Single-Page Applications and payment integrations.',
+    info: 'Dynamic web and shopping solutions.'
   },
   {
-    name: 'Software Tools',
-    message: 'Development of specialized tools for NFT analytics, Add-to-Cart functionalities, Web Scraping, and Data Parsing.',
-    info: 'Compliant with applicable laws and regulations.'
+    name: 'Web3 & Blockchain Integration',
+    message: 'Decentralized applications, smart contracts, NFTs, leveraging Web3.js, Solidity, and blockchain technologies.',
+    info: 'Innovative blockchain services.'
   },
   {
-    name: 'Discord',
-    message: 'Comprehensive services for Discord, including Security Audits, Server Configuration, and Bot Development.',
-    info: 'Compliant with Discord’s Terms of Service.'
+    name: 'Bot Development & Automation',
+    message: 'Custom bots for Discord and Twitter, plus automation scripts for enhanced engagement and efficiency.',
+    info: 'Advanced bot and automation scripts.'
   },
   {
-    name: 'Twitter',
-    message: 'Custom solutions for Twitter, featuring Bots and OAuth-enabled engagement platforms.',
-    info: 'Adheres to Twitter’s Terms of Service.'
+    name: 'Interactive Design & Full Stack',
+    message: 'Engaging UI/UX designs with full stack development capabilities, ensuring robust and maintainable solutions.',
+    info: 'End-to-end interactive & technical design.'
   },
   {
-    name: 'WEB3',
-    message: 'Decentralized solutions for WEB3, including DApps for Minting, Marketplaces, and Gated Content.',
-    info: 'Complies with standard WEB3 protocols.'
+    name: 'Scripting & Custom Tooling',
+    message: 'Solutions for process automation, data parsing, and custom tool development for various operational needs.',
+    info: 'Custom scripts and specialized tools.'
   },
   {
-    name: 'Full Stack Development',
-    message: 'End-to-End Development services, covering Frontend, Backend, Database Management, and more.',
-    info: 'Developed to meet or exceed industry standards.'
+    name: 'Custom Application Development',
+    message: 'Specialized web applications for analytics, content management, and interactive features tailored to your business.',
+    info: 'Tailored web app solutions.'
   }
 ];
 
 export default recommendation;
-

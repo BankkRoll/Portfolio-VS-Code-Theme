@@ -21,13 +21,18 @@
   width: 45px;
 }
 
+.icon-container svg {
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.icon-container:hover svg {
+  transform: scale(1.2);
+  color: #24f21d;
+}
+
 .icon-footer {
   font-size: 1.25rem;
   transition: 0.5s;
-}
-
-.icon-footer:hover {
-  color: var(--gray-100);
 }
 
 .links-footer {

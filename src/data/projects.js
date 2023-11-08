@@ -5,8 +5,7 @@ const projects = [
     src: 'github.png',
     site: 'https://github.com/BankkRoll',
     repository: 'https://github.com/BankkRoll',
-    technologies: ['React', 'Next.js','Node.js', 'CSS', 'HTML'],
-    category: 'websites'
+    technologies: ['React', 'Next.js','Node.js', 'TypeScript', 'Tailwind', 'CSS', 'HTML'],
   },
   {
     name: 'Server Inspector',
@@ -25,10 +24,10 @@ const projects = [
     technologies: ['Typescript'],
   },
   {
-    name: 'Icy Gem Empire',
-    description: 'Experience the beauty of diamonds without the high cost.', 
-    src: 'icygemempire.gif',
-    site: 'https://icygemempire.myshopify.com/',
+    name: 'Enzo Vimiri',
+    description: 'Beyond Diamonds. Crafting Exquisite Moissanite Jewelry Since 2020 ', 
+    src: 'enzovimiri.gif',
+    site: 'https://enzovimiri.com/',
     technologies: ['Custom Shopify'],
   },
   {
@@ -46,16 +45,19 @@ const projects = [
     technologies: ['Custom Shopify'],
   },
   {
+    name: 'SocialFeeds', 
+    description: 'Create a custom profile where you can link all your social media accounts, websites, and more in one place.', 
+    src: 'socialfeeds.gif',
+    site: 'https://socialfeeds.vercel.app/',
+    technologies: ['Typescript'],
+  },
+  {
     name: 'Custom Website',
     description: 'Need a custom website?',
     src: 'wixcustom.gif',
     site: 'https://twitter.com/bankkroll_eth',
-    technologies: ['React', 'Next.js', 'Shopify', 'Webflow',  'Wix', 'Framer', 'ect..'],
+    technologies: ['Next.js', 'Shopify', 'Webflow',  'Wix', 'Framer', 'ect..'],
   },
-
-
-
-
   {
     name: 'auto-header-est2023',
     description: 'Automatically insert header comments tailored to your preferences for every file you create. - VSCode extension', 
