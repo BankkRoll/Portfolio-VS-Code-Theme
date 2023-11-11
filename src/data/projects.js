@@ -239,13 +239,6 @@ const projects = [
     src: 'DOINKME.png',
     site: 'https://doinkme.xyz/',
     technologies: ['HTML', 'CSS', 'JavaScript', 'jQuery'],
-  },
-  {
-    name: 'PFP Generator',
-    description: 'PFP Overlay Changer',
-    src: 'PFP.png',
-    site: 'https://pfpgenerator.bankkroll.repl.co/',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'jQuery'],
   }
 ];
 
